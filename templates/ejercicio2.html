@@ -1,0 +1,27 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+</head>
+<body>
+    <div class="formulario">
+        <h2>Inicio de sesión</h2>
+        <form method="POST">
+            <label>Ingresa tu nombre</label>
+            <input type="text" name="usuario" required>
+
+            <label>Ingresa tu contraseña</label>
+            <input type="password" name="clave" required>
+
+            <input type="submit" value="Verificar">
+        </form>
+
+        {% if mensaje %}
+            <div class="resultado">
+                <p>{{ mensaje }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
