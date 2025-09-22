@@ -1,6 +1,6 @@
 # Examen - Proyecto Flask
 
-Este repositorio contiene el desarrollo completo de una aplicación web construida con Flask como parte de la Evaluación 3. Se incluye toda la estructura del proyecto, archivos fuente, entorno virtual y configuraciones locales para garantizar una entrega funcional y reproducible.
+Este repositorio contiene el desarrollo completo de una aplicación web construida con Flask como parte de el Examen. Se incluye toda la estructura del proyecto, archivos fuente, entorno virtual y configuraciones locales para garantizar una entrega funcional y reproducible.
 
 
 
@@ -25,7 +25,7 @@ https://github.com/diegodonoso4-design/examen
 python app.py
 
 4. Abrir el navegador en:
-127.0.0.1
+127.0.0.1:5000
 
 -----------------
 # Notas técnicas
